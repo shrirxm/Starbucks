@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Starbucks</title>
+    <!--favicon-->
+    <link rel="icon" type="image/x-icon" href="starbucks.png">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="main">
+    
+        <img src="hehe.png" alt="wallpaper" width="30%" >
+    
+    <div class="right">
+        <div class="logo">
+        <a href="home.html" target="_blank">
+        <img src="starbucks.png" alt="starbucks logo" width="210px" height="210px">
+        </a>
+        </div>
+        <div class="form">
+        <form method="post" action="home.html" >
+            <h4>Sign In</h4>
+            <!-- <label for="userid">UserID</label> -->
+            <div class="input">
+            <input type="email" name="pass" id="email" placeholder="Enter your email">
+            <br>
+            </div>
+            
+            <!-- <label for="password">Password</label> -->
+            <div class="input">
+            <input type="password" name="pass" id="pass" placeholder="Enter your password">
+            </div>
+            <div class="input"> 
+            
+            <button id="sub" onclick="open()">Submit</button>
+            
+            
+            </div>
+            <span><a href="signup.html" target="">New user? Register Here</a></span>
+        </form>
+    </div>
+    </div>
+</div>
+<script>
+    function open(){
+        window.location.href='home.html';
+    }
+</script>
+     
+    
+</body>
+</html>
